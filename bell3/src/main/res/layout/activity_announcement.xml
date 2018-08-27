@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    tools:context="com.example.bell.AnnouncementActivity">
+
+    <TextView
+        android:id="@+id/annTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edtAnn"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:hint="write here to send a notice.." />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnAnnStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:layout_weight="1"
+            android:background="@drawable/buttonround"/>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnAnnStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:background="@drawable/buttonround"
+        android:layout_marginTop="15dp"/>
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bell.iml" filepath="$PROJECT_DIR$/Bell.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bell2/bell2.iml" filepath="$PROJECT_DIR$/bell2/bell2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bell3/bell3.iml" filepath="$PROJECT_DIR$/bell3/bell3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bellR/bellR.iml" filepath="$PROJECT_DIR$/bellR/bellR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bellreceiver/bellreceiver.iml" filepath="$PROJECT_DIR$/bellreceiver/bellreceiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bellreciever/bellreciever.iml" filepath="$PROJECT_DIR$/bellreciever/bellreciever.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nodemcu/nodemcu.iml" filepath="$PROJECT_DIR$/nodemcu/nodemcu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/services.iml" filepath="$PROJECT_DIR$/services/services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simplearduinocontroller/simplearduinocontroller.iml" filepath="$PROJECT_DIR$/simplearduinocontroller/simplearduinocontroller.iml" />
+    </modules>
+  </component>
+</project>

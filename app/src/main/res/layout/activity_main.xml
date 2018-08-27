@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.vikram.bell.MainActivity">
+
+    <Button
+        android:id="@+id/btnstart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start"/>
+    <Button
+        android:id="@+id/btnstop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stop"/>
+
+    <TextView
+        android:id="@+id/timeview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Time"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"/>
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/timet1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="null"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/timet2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="null"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/timet3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="null"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/timet4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="null"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/timet5"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="null"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/timet6"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="null"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/timet7"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="null"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/timet8"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="null"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/timet9"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="null"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/timet10"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="null"
+        android:gravity="center"/>
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/btnSetTimings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set New Timings"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:id="@+id/show1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="null"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/show2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="null"
+        android:gravity="center"/>
+
+
+</LinearLayout>

@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.bell.MainActivity"
+    android:background="#ffffff">
+
+
+    <TextView
+        android:id="@+id/mainlogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BELL"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:fontFamily="serif-monospace"
+        android:background="@drawable/customtextview"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:clickable="true"/>
+
+
+    <TextView
+        android:id="@+id/timeview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Current System Time"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="#20616161">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Current Timings"
+                android:gravity="center"
+                android:textSize="@dimen/timessize"
+                android:layout_marginBottom="10dp"
+                android:background="#2196F3"
+                android:textColor="#ffff"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="6"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="1. "
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/timessize"/>
+                <TextView
+                    android:id="@+id/timet1"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:hint="null"
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:textSize="@dimen/timessize"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="6. "
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/timessize"/>
+                <TextView
+                    android:id="@+id/timet6"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:hint="null"
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:textSize="@dimen/timessize"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="6"
+                android:layout_marginBottom="10dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="2. "
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/timessize"/>
+                <TextView
+                    android:id="@+id/timet2"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:hint="null"
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:textSize="@dimen/timessize"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="7. "
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/timessize"/>
+
+                <TextView
+                    android:id="@+id/timet7"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:hint="null"
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:textSize="@dimen/timessize"/>
+
+                </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="6"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="3. "
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/timessize"/>
+                <TextView
+                    android:id="@+id/timet3"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:hint="null"
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:textSize="@dimen/timessize"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="8. "
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/timessize"/>
+                <TextView
+                    android:id="@+id/timet8"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:hint="null"
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:textSize="@dimen/timessize"/>
+
+
+                </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="6"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="4. "
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/timessize"/>
+                <TextView
+                    android:id="@+id/timet4"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:hint="null"
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:textSize="@dimen/timessize"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="9. "
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/timessize"/>
+                <TextView
+                    android:id="@+id/timet9"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:hint="null"
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:textSize="@dimen/timessize"/>
+
+
+                </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="6"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="5. "
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/timessize"/>
+                <TextView
+                    android:id="@+id/timet5"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:hint="null"
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:textSize="@dimen/timessize"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="10. "
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/timessize"/>
+            <TextView
+                android:id="@+id/timet10"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:hint="null"
+                android:gravity="center"
+                android:layout_weight="2"
+                android:textSize="@dimen/timessize"/>
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Timings"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="#2196F3"
+        android:textColor="#ffff"
+        android:textSize="@dimen/timessize"/>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:weightSum="2">
+
+    <Button
+        android:id="@+id/btnSetMFTimings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mon to Fri Timings"
+        android:layout_weight="1"
+        android:background="@drawable/buttonround"/>
+    <Button
+        android:id="@+id/btnSetSatTimings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saturday Timings"
+        android:layout_weight="1"
+        android:background="@drawable/buttonround"/>
+
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/btnEdtTimings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit New Timings"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/buttonround"/>
+
+    <Button
+        android:id="@+id/btnAnnouncement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    Notice    "
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/buttonround"/>
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

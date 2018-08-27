@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    tools:context="com.example.vikram.bell.EditTimings">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Timings of Bell"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+    //1ST LINE
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1st Bell : "
+            android:textSize="25dp"/>
+
+        <Spinner
+            android:id="@+id/h1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:entries="@array/hour">
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/m1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:entries="@array/minute">
+        </Spinner>
+
+    </LinearLayout>
+
+    //2ND LINE
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2nd Bell : "
+            android:textSize="25dp"/>
+
+        <Spinner
+            android:id="@+id/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:entries="@array/hour">
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/m2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:entries="@array/minute">
+        </Spinner>
+    </LinearLayout>
+
+    //3RD LINE
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3rd Bell : "
+            android:textSize="25dp"/>
+
+        <Spinner
+            android:id="@+id/h3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:entries="@array/hour">
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/m3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:entries="@array/minute">
+        </Spinner>
+    </LinearLayout>
+
+    //4TH LINE
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4th Bell : "
+            android:textSize="25dp"/>
+
+        <Spinner
+            android:id="@+id/h4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:entries="@array/hour">
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/m4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:entries="@array/minute">
+        </Spinner>
+
+    </LinearLayout>
+
+    //5TH LINE
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5th Bell : "
+            android:textSize="25dp"/>
+
+        <Spinner
+            android:id="@+id/h5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:entries="@array/hour">
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/m5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:entries="@array/minute">
+        </Spinner>
+
+    </LinearLayout>
+
+    //6TH LINE
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6th Bell : "
+            android:textSize="25dp"/>
+
+        <Spinner
+            android:id="@+id/h6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:entries="@array/hour">
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/m6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:entries="@array/minute">
+        </Spinner>
+
+    </LinearLayout>
+
+    //7TH LINE
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7th Bell : "
+            android:textSize="25dp"/>
+
+        <Spinner
+            android:id="@+id/h7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:entries="@array/hour">
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/m7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:entries="@array/minute">
+        </Spinner>
+
+    </LinearLayout>
+
+    //8TH LINE
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8th Bell : "
+            android:textSize="25dp"/>
+
+        <Spinner
+            android:id="@+id/h8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:entries="@array/hour">
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/m8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:entries="@array/minute">
+        </Spinner>
+
+    </LinearLayout>
+
+    //9TH LINE
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9th Bell : "
+            android:textSize="25dp"/>
+
+        <Spinner
+            android:id="@+id/h9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:entries="@array/hour">
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/m9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:entries="@array/minute">
+        </Spinner>
+
+    </LinearLayout>
+
+    //10TH LINE
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10th Bell : "
+            android:textSize="25dp"/>
+
+        <Spinner
+            android:id="@+id/h10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:entries="@array/hour">
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/m10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:entries="@array/minute">
+        </Spinner>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnDoneEditing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Time"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"/>
+
+
+</LinearLayout>
+</ScrollView>
